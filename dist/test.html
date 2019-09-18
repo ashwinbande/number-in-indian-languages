@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="number-in-indian-languages.umd.js"></script>
+</head>
+<body>
+<script>
+    // 1,23,45,67,890.12
+    const obj = {
+      minorPrefix: 'and',
+      minorSuffix: 'paise',
+      majorPrefix: 'amount',
+      majorSuffix: 'rupies',
+      suffix: 'only',
+      prefix: 'the',
+    };
+    console.log(numInIndianLang.inWords(47854589482.65, 'ENG', obj));
+    console.log(numInIndianLang.inWords(47854589482.65, 'MAR', obj));
+    console.log(numInIndianLang.inWords(47854589482.65, 'GUJ', obj));
+    console.log(numInIndianLang.inWords(102, 'ENG', obj));
+    console.log(numInIndianLang.inWords(102, 'MAR', obj));
+    console.log(numInIndianLang.inWords(102, 'GUJ', obj));
+    console.log(numInIndianLang.inWords(100, 'ENG', obj));
+    console.log(numInIndianLang.inWords(100, 'MAR', obj));
+    console.log(numInIndianLang.inWords(100, 'GUJ', obj));
+</script>
+</body>
+</html>

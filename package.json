@@ -1,0 +1,36 @@
+{
+  "name": "number-in-indian-languages",
+  "version": "1.0.0",
+  "description": "An utility to convert number in different indian languages.",
+  "main": "dist/number-in-indian-languages.cjs.js",
+  "module": "dist/number-in-indian-languages.esm.js",
+  "browser": "dist/number-in-indian-languages.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwinbande/number-in-indian-languages.git"
+  },
+  "keywords": [
+    "marathi",
+    "hindi",
+    "english"
+  ],
+  "author": "Ashwin Bande",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashwinbande/number-in-indian-languages/issues"
+  },
+  "homepage": "https://github.com/ashwinbande/number-in-indian-languages#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup": "^1.21.4",
+    "rollup-plugin-babel-minify": "^9.0.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
